@@ -50,7 +50,7 @@
         <nav id="navbar" class="fixed w-full top-0 right-10 p-6 text-end m-auto space-x-5 text-xs hidden md:block
         transition-all duration-500 ease-out z-50 -translate-x-10 opacity-0 bg-bg1/70 backdrop-blur-sm">
 
-            <a href="./index.html" class="fixed left-24 top-5 outline-none group">
+            <a href="#" class="fixed left-24 top-5 outline-none group">
                 <div class="relative w-14 h-14">
                     <img class="absolute w-full h-full z-10 transition-transform duration-300 
                     group-hover:-translate-1 group-active:-translate-1 group-focus:-translate-1"
@@ -146,7 +146,7 @@
         </div>
 
         <!--Presentación-->
-        <section id="presentation" class="mt-40 mx-20 opacity-0 transition-all duration-700">
+        <section id="presentation" class="mt-40 md:mt-55 mx-10 opacity-0 transition-all duration-700">
             <p class="text-span text-md mb-5 lg:text-lg xl:text-2xl">Hi, my name is</p>
             <h1 class="text-text1 text-5xl mb-7 lg:text-6xl xl:text-7xl font-extrabold">Danilo Doria</h1>
             <p class="leading-6 text-md w-full sm:w-3/4 lg:text-sm xl:text-lg lg:leading-7 xl:leading-9">
@@ -158,35 +158,33 @@
         </section>
 
         <!--About section-->
-        <section id="about" class="mt-40 mx-10 md:mx-20 scroll-m-36 opacity-0 translate-y-10 transition-all duration-700 
+        <section id="about" class="grid grid-cols-1 gap-10 mt-40 mx-10 md:grid-cols-3 scroll-m-15 opacity-0 translate-y-10 transition-all duration-700 
          md:mt-48">
-            <h2 class="text-md text-lg mb-7 lg:text-xl xl:text-2xl">
+            <h2 class="text-md text-lg lg:text-xl xl:text-2xl">
                 <span class="text-span flex-col">01. </span>About Me
             </h2>
-            <div class="flex flex-col md:flex-row md:items-start md:space-x-10">
-                <p class="leading-6 text-md w-fit sm:w-4/6 lg:text-sm xl:text-lg lg:leading-7 xl:leading-9">
-                    My name is Danilo Andrés Doria Díaz, I am 24 years old and I am from Colombia. Since I was a child,
-                    I have always been
-                    interested in everything related to technology, computing, and video games.
-                    You could say that my first contact with programming was at school, where I saw HTML for the first
-                    time.
-                    Later on in college, while studying industrial engineering, I entered the world of programming
-                    with C++ and later took a course in data cleaning and visualization with Python and Power
-                    BI.<br><br>
-                    I am currently continuing to learn and improve my skills as a web developer in order to become
-                    competent
-                    and be able to bring my knowledge and quality to my work. My main goal is to become a full stack
-                    developer
-                    specializing in JavaScript.
-                </p>
+            <p
+                class="leading-6 text-md w-full sm:w-4/6 md:w-full md:col-span-2 lg:text-sm xl:text-lg lg:leading-7 xl:leading-9">
+                My name is Danilo Andrés Doria Díaz, I am 24 years old and I am from Colombia. Since I was a child,
+                I have always been
+                interested in everything related to technology, computing, and video games.
+                You could say that my first contact with programming was at school, where I saw HTML for the first
+                time.
+                Later on in college, while studying industrial engineering, I entered the world of programming
+                with C++ and later took a course in data cleaning and visualization with Python and Power
+                BI.<br><br>
+                I am currently continuing to learn and improve my skills as a web developer in order to become
+                competent
+                and be able to bring my knowledge and quality to my work. My main goal is to become a full stack
+                developer
+                specializing in JavaScript.
+            </p>
 
-                <div class="relative w-52 m-auto my-10 sm:w-2/5 md:w-80 md:ml-auto">
-                    <img src="/assets/images/DaniloDoria-Photo.jpg" alt="Profile photo of Danilo Doria" class="relative z-10 w-full h-full transform transition duration-300 hover:-translate-1 rounded-xs
-                    active:-translate-1">
+            <div class="relative w-52 justify-self-center md:col-start-3 md:row-start-1 row-span-2 self-center md:w-82">
+                <img src="/assets/images/DaniloDoria-Photo.jpg" alt="Profile photo of Danilo Doria" class="relative z-10 w-full h-full transform transition duration-300 hover:-translate-1 rounded-xs
+                active:-translate-1">
 
-                    <div
-                        class="absolute top-2 left-2 w-full h-full bg-transparent outline-span outline-3 z-0 rounded-xs">
-                    </div>
+                <div class="absolute top-2 left-2 w-full h-full bg-transparent outline-span outline-3 z-0 rounded-xs">
                 </div>
             </div>
 
@@ -194,13 +192,13 @@
             <!-- <img class="hidden" src="/assets/images/DaniloDoria-Photo2.jpeg" alt="Foto de Danilo Doria en el mar"> -->
         </section>
 
-        <!--Eperience section-->
-        <section id="experience" class="mt-30 scroll-m-36 opacity-0 translate-y-10 transition-all duration-700">
+        <!--Experience section-->
+        <section id="experience" class="mt-30 scroll-m-20 opacity-0 translate-y-10 transition-all duration-700 ">
             <h2 class="mx-10 text-lg mb-4 lg:text-xl xl:text-2xl">
                 <span class="text-span flex-col">02. </span>My Experience
             </h2>
             <h3 class="mx-10 mb-20 text-md text-md mb-7 lg:text-lg xl:text-xl">Technical skills</h3>
-            <div id="carousel" class="flex justify-evenly w-full">
+            <div id="carousel" class="flex justify-evenly">
                 <img src="/assets/images/html-logo.png" alt="HTML 5 logo" class="h-14 w-auto sm:h-16 md:h-20">
                 <img src="/assets/images/css-logo.png" alt="CSS logo" class="h-14 w-auto sm:h-16 md:h-20">
                 <img src="/assets/images/javascript-logo.png" alt="Javascript logo" class="h-14 w-auto sm:h-16 md:h-20">
@@ -221,7 +219,7 @@
                         class="w-full h-48 object-cover rounded-lg">
 
                     <div class="card-content">
-                        <h3>Portafolio Final</h3>
+                        <h3 class="mb-1 mt-3 font-bold text-span">Portafolio Final</h3>
                         <p>
                             Portafolio desarrollado con HTML, CSS/Tailwind y JavaScript.
                         </p>
@@ -234,7 +232,7 @@
                         class="w-full h-48 object-cover rounded-lg">
 
                     <div class="card-content">
-                        <h3>Portafolio V1</h3>
+                        <h3 class="mb-1 mt-3 font-bold text-span">Portafolio V1</h3>
                         <p>
                             Mi primer portafolio desarrollado con HTML, CSS y JavaScript puros.
                         </p>
@@ -248,7 +246,7 @@
                         class="w-full h-48 object-cover rounded-lg">
 
                     <div class="card-content">
-                        <h3>Sistema Basico de Inventarios</h3>
+                        <h3 class="mb-1 mt-3 font-bold text-span">Sistema Basico de Inventarios</h3>
                         <p>
                             Proyecto de sistema de inventarios desarrollado con python.
                         </p>
@@ -262,7 +260,7 @@
                         class="w-full h-48 object-cover rounded-lg">
 
                     <div class="card-content">
-                        <h3>Simulador de Cajero Automático</h3>
+                        <h3 class="mb-1 mt-3 font-bold text-span">Simulador de Cajero Automático</h3>
                         <p>
                             Proyecto de simulador de cajero automático desarrollado con python.
                         </p>
@@ -276,7 +274,7 @@
                         class="w-full h-48 object-cover rounded-lg">
 
                     <div class="card-content">
-                        <h3>Sistema de Gestion de Estudiantes con Persistencia de Datos</h3>
+                        <h3 class="mb-1 mt-3 font-bold text-span">Sistema de Gestion de Estudiantes con Persistencia de Datos</h3>
                         <p>
                             Proyecto de sistema de gestion de estudiantes desarrollado con python.
                         </p>
@@ -290,7 +288,7 @@
                         class="w-full h-48 object-cover rounded-lg">
 
                     <div class="card-content">
-                        <h3>Sistema de Registro Basico de Empleados</h3>
+                        <h3 class="mb-1 mt-3 font-bold text-span">Sistema de Registro Basico de Empleados</h3>
                         <p>
                             Proyecto de sistema de registro de empleados desarrollado con python.
                         </p>
@@ -300,7 +298,7 @@
         </section>
 
         <section id="contact"
-            class="text-center mt-50 scroll-m-10 opacity-0 translate-y-10 transition-all duration-700">
+            class="text-center mt-50 mb-20 scroll-m-10 opacity-0 translate-y-10 transition-all duration-700">
             <p class="text-span text-lg mb-4 lg:text-xl xl:text-2xl">04. Next Step</p>
             <h2 class="text-text2 text-4xl mb-4 lg:text-5xl font-extrabold">
                 Get In Touch
@@ -333,7 +331,7 @@
                     src="/assets/icons/linkedin-icon.svg" alt="LinkedIn logo">
             </a>
         </div>
-        <p class="text-sm text-center">© 2026 Danilo Doria — All rights reserved.</p>
+        <p class="text-sm text-center">© <span id="year"></span> Danilo Doria — All rights reserved.</p>
     </footer>
     <script src="./src/js/script.js"></script>
 
